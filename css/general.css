@@ -1,0 +1,23 @@
+html {
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "PT Sans", sans-serif;
+}
+
+.wraper {
+  width: 960px;
+  display: flex;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Rokkitt", serif;
+}

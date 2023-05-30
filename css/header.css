@@ -1,0 +1,16 @@
+header {
+  margin-top: 50px;
+  padding-bottom: 15px;
+  position: sticky;
+}
+
+header .wraper {
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+  column-gap: 25px;
+  text-transform: uppercase;
+}
