@@ -13,7 +13,7 @@ body {
 }
 
 .wraper {
-  width: 960px;
+  width: 1200px;
   margin: auto;
   display: flex;
   flex-direction: column;
@@ -32,4 +32,10 @@ h1 {
 a {
   color: var(--neutral-light);
   text-decoration: none;
+}
+
+p {
+  color: var(--neutral-medium);
+  font-size: 18px;
+  line-height: 1.5;
 }
