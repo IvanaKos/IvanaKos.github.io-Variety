@@ -14,10 +14,22 @@ body {
 
 .wraper {
   width: 960px;
-  display: flex;
   margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 h1 {
-  font-family: "Rokkitt", serif;
+  font: 60px "Rokkitt", serif;
+  color: var(--neutral-light);
+  margin-bottom: 20px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--neutral-light);
+}
+
+a {
+  color: var(--neutral-light);
+  text-decoration: none;
 }

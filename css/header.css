@@ -1,10 +1,14 @@
 header {
   margin-top: 50px;
   padding-bottom: 15px;
-  position: sticky;
+  position: fixed;
+  width: 100%;
+  color: var(--neutral-light);
+  z-index: 2;
 }
 
 header .wraper {
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
 }
@@ -12,5 +16,9 @@ header .wraper {
 nav ul {
   display: flex;
   column-gap: 25px;
+  text-transform: uppercase;
+}
+
+header a {
   text-transform: uppercase;
 }
