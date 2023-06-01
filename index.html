@@ -166,7 +166,31 @@
     <section id="contact">
       <div class="wraper">
         <h2>Get in touch!</h2>
-        <div class="contact-form"></div>
+        <div class="contact-form-container">
+          <form class="contact-form">
+            <div class="input-container">
+              <input
+                placeholder="Name"
+                type="text"
+                class="input-contact-info"
+                required
+              />
+              <input
+                placeholder="Email"
+                type="email"
+                class="input-contact-info"
+                required
+              />
+            </div>
+            <textarea
+              placeholder="How can I help you?"
+              rows="7"
+              class="form-text-area"
+              required
+            ></textarea>
+            <input type="submit" value="Send" class="submit-btn" />
+          </form>
+        </div>
       </div>
     </section>
     <footer>
