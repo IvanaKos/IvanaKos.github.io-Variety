@@ -24,8 +24,9 @@
 
 .input-contact-info,
 .form-text-area {
-  font: 30px "Rokkitt", serif;
+  font: 24px "Rokkitt", serif;
   background-color: var(--neutral-medium-variant);
+  color: var(--neutral-medium);
   border: none;
   padding: 20px;
 }
