@@ -1,9 +1,10 @@
 :root {
-  --neutral-light: #ffffff;
-  --neutral-light-variant: #cecece;
-  --neutral-medium: #95a5a6;
-  --neutral-medium-variant: #e4e8e8;
-  --neutral-dark: #297465;
-  --emphasis: #1abc9c;
-  --background-light: #f6f6f6;
+  --neutral-light: hsl(0, 0%, 100%);
+  --neutral-light-variant: hsl(0, 0%, 81%);
+  --neutral-medium: hsl(184, 9%, 62%);
+  --neutral-medium-variant: hsl(180, 8%, 90%);
+  --neutral-dark: hsl(168, 48%, 31%);
+  --emphasis: hsl(168, 76%, 42%);
+  --emphasis-trans: hsla(168, 76%, 42%, 0.5);
+  --background-light: hsl(0, 0%, 96%);
 }
