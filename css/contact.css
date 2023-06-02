@@ -1,0 +1,62 @@
+#contact h2 {
+  color: var(--emphasis);
+  font: 60px "Rokkitt", serif;
+  margin: 70px 0;
+}
+
+.contact-form-container {
+  margin-bottom: 150px;
+  width: 70%;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.input-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.input-contact-info,
+.form-text-area {
+  font: 24px "Rokkitt", serif;
+  background-color: var(--neutral-medium-variant);
+  color: var(--neutral-medium);
+  border: none;
+  padding: 20px;
+}
+
+.input-contact-info {
+  width: 45%;
+  height: 70px;
+  margin-bottom: 40px;
+}
+
+.form-text-area {
+  width: 100%;
+}
+
+input::placeholder,
+textarea::placeholder {
+  font: 30px "Rokkitt", serif;
+  color: var(--neutral-light-variant);
+}
+
+#contact input:focus,
+#contact textarea:focus {
+  outline-color: var(--emphasis-trans);
+}
+
+#contact .submit-btn {
+  font: 24px "Rokkitt", serif;
+  padding: 12px 35px;
+  background-color: var();
+  box-shadow: 0 0 0 3px var(--neutral-medium-variant);
+  margin-top: 50px;
+  color: var(--emphasis);
+}
