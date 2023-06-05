@@ -42,3 +42,13 @@ footer {
   color: var(--neutral-light);
   font-size: 24px;
 }
+
+.legal-info a {
+  transition: 0.4s ease;
+}
+
+.legal-info a:hover {
+  color: var(--neutral-medium-variant);
+  transform: scale(0.95);
+  transition: 0.4s ease;
+}
