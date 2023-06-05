@@ -64,6 +64,7 @@ textarea::placeholder {
 
 #contact .submit-btn:hover {
   box-shadow: 0 0 0 3px var(--emphasis-trans);
-  transition: 0.3s;
   border-radius: 2px;
+  transform: scale(0.97);
+  transition: 0.3s;
 }
