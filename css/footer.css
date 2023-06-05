@@ -19,6 +19,14 @@ footer {
   background-color: var(--background-light);
   color: var(--emphasis);
   box-shadow: 0 0 0 6px var(--emphasis-trans);
+  position: relative;
+  overflow: hidden;
+  z-index: 0;
+  transition: transform 0.4s ease;
+}
+
+.social-icon:hover {
+  transform: scale(0.95);
 }
 
 .legal-info {

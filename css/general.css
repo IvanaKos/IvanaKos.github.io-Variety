@@ -74,7 +74,8 @@ p {
   transition: 0.4s;
 }
 
-.btn-primary::before {
+.btn-primary::before,
+.social-icon::before {
   content: "";
   display: block;
   position: absolute;
@@ -89,7 +90,8 @@ p {
   z-index: -1;
 }
 
-.btn-primary:hover.btn-primary::before {
+.btn-primary:hover.btn-primary::before,
+.social-icon:hover.social-icon::before {
   border-width: 300px 300px 0 0;
   transition: 0.8s ease border-width;
 }
