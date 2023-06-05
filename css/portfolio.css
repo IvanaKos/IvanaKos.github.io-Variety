@@ -106,3 +106,7 @@
   background-color: var(--emphasis);
   box-shadow: 0 0 0 6px var(--emphasis-trans);
 }
+
+.btn-primary:hover svg polygon {
+  fill: var(--emphasis);
+}
