@@ -59,4 +59,11 @@ textarea::placeholder {
   box-shadow: 0 0 0 3px var(--neutral-medium-variant);
   margin-top: 50px;
   color: var(--emphasis);
+  transition: 0.3s;
+}
+
+#contact .submit-btn:hover {
+  box-shadow: 0 0 0 3px var(--emphasis-trans);
+  transition: 0.3s;
+  border-radius: 2px;
 }

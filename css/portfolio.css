@@ -53,6 +53,12 @@
   display: flex;
   justify-content: space-evenly;
   margin-bottom: 70px;
+  transition: 0.4s;
+}
+
+.gallery-container .btn-primary:hover {
+  box-shadow: 0 0 0 3px var(--emphasis-trans);
+  transition: 0.4s;
 }
 
 .photo-overlay {
