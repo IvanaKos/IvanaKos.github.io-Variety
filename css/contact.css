@@ -55,7 +55,6 @@ textarea::placeholder {
 #contact .submit-btn {
   font: 24px "Rokkitt", serif;
   padding: 12px 35px;
-  background-color: var();
   box-shadow: 0 0 0 3px var(--neutral-medium-variant);
   margin-top: 50px;
   color: var(--emphasis);

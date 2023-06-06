@@ -4,6 +4,7 @@
   --neutral-medium: hsl(184, 9%, 62%);
   --neutral-medium-variant: hsl(180, 8%, 90%);
   --neutral-dark: hsl(168, 48%, 31%);
+  --warm-overlay: hsl(3, 41%, 79%);
   --emphasis: hsl(168, 76%, 42%);
   --emphasis-trans: hsla(168, 76%, 42%, 0.5);
   --background-light: hsl(0, 0%, 96%);

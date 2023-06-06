@@ -6,7 +6,7 @@
 
 #hero::before {
   content: "";
-  background-color: #e0b7b5;
+  background-color: var(--warm-overlay);
   display: block;
   position: absolute;
   top: 0;
