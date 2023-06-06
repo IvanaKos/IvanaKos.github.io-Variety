@@ -49,5 +49,4 @@ footer {
 
 .legal-info a:hover {
   color: var(--neutral-medium-variant);
-  transition: 0.4s ease;
 }

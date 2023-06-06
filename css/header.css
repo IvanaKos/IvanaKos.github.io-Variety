@@ -35,5 +35,4 @@ nav a {
 
 nav a:hover {
   color: var(--emphasis);
-  transition: color 0.4s ease;
 }

@@ -71,7 +71,6 @@ p {
 
 .btn-primary:hover {
   color: var(--emphasis);
-  transition: 0.4s;
 }
 
 .btn-primary::before,
@@ -93,5 +92,4 @@ p {
 .btn-primary:hover.btn-primary::before,
 .social-icon:hover.social-icon::before {
   border-width: 300px 300px 0 0;
-  transition: 0.8s ease border-width;
 }
