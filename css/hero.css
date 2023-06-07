@@ -25,7 +25,6 @@
 #hero h2 {
   color: var(--neutral-light);
   font: 22px "Quicksand", sans-serif;
-  text-align: center;
 }
 
 #hero .btn-primary {

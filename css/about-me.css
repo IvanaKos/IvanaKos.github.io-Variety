@@ -1,13 +1,10 @@
-#about-me {
-  overflow: hidden;
-}
-
 .introduction {
+  width: 75%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin: 150px 90px 70px 90px;
+  margin: 150px 0 70px 0;
 }
 
 .introduction h2 {
@@ -25,6 +22,7 @@
 .skills-container {
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
@@ -44,4 +42,25 @@
 .skill-unit-icon {
   display: flex;
   justify-content: center;
+}
+
+@media only screen and (max-width: 1400px) {
+  .skill-unit {
+    width: calc(30% - 30px);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .introduction {
+    width: 85%;
+  }
+
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+    row-gap: 50px;
+  }
+  .skill-unit {
+    width: 70%;
+  }
 }
