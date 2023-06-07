@@ -1,7 +1,6 @@
 footer {
   height: 240px;
   background-color: var(--emphasis);
-  overflow: hidden;
 }
 
 .social-icons-container {
@@ -50,4 +49,26 @@ footer {
 
 .legal-info a:hover {
   color: var(--neutral-medium-variant);
+}
+
+@media only screen and (max-width: 768px) {
+  .social-icon {
+    width: 70px;
+    height: 70px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .social-icon {
+    width: 50px;
+    height: 50px;
+  }
+  .social-icons-container {
+    margin-top: -15px;
+  }
+
+  .legal-info p,
+  .legal-info a {
+    font-size: 18px;
+  }
 }
