@@ -25,10 +25,17 @@
 #hero h2 {
   color: var(--neutral-light);
   font: 22px "Quicksand", sans-serif;
+  text-align: center;
 }
 
 #hero .btn-primary {
   position: absolute;
   bottom: -25px;
   box-shadow: 0 0 0 6px var(--emphasis-trans);
+}
+
+@media only screen and (max-width: 768px) {
+  #hero h2 {
+    font-size: 18px;
+  }
 }

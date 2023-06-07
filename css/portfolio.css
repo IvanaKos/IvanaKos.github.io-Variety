@@ -1,3 +1,7 @@
+#portfolio {
+  overflow: hidden;
+}
+
 .gallery-container {
   width: 100%;
   display: flex;

@@ -1,6 +1,7 @@
 footer {
   height: 240px;
   background-color: var(--emphasis);
+  overflow: hidden;
 }
 
 .social-icons-container {

@@ -1,3 +1,7 @@
+#contact {
+  overflow: hidden;
+}
+
 #contact h2 {
   color: var(--emphasis);
   font: 60px "Rokkitt", serif;

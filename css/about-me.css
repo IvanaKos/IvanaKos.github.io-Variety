@@ -1,3 +1,7 @@
+#about-me {
+  overflow: hidden;
+}
+
 .introduction {
   display: flex;
   flex-direction: column;
