@@ -61,4 +61,33 @@ p {
   background-color: var(--emphasis);
   color: var(--neutral-light);
   text-transform: uppercase;
+  position: relative;
+  overflow: hidden;
+  z-index: 2;
+  transition: 0.4s;
+}
+
+.btn-primary:hover {
+  color: var(--emphasis);
+}
+
+.btn-primary::before,
+.social-icon::before {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0;
+  border-color: var(--neutral-light) transparent transparent transparent;
+  transition: 0.8s ease border-width;
+  z-index: -1;
+}
+
+.btn-primary:hover.btn-primary::before,
+.social-icon:hover.social-icon::before {
+  border-width: 300px 300px 0 0;
 }
