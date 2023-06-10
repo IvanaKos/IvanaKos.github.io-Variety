@@ -38,6 +38,11 @@ h1 {
   margin-bottom: 20px;
   padding-bottom: 5px;
   border-bottom: 1px solid var(--neutral-light);
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 a {
@@ -90,4 +95,16 @@ p {
 .btn-primary:hover.btn-primary::before,
 .social-icon:hover.social-icon::before {
   border-width: 300px 300px 0 0;
+}
+
+@media only screen and (max-width: 1400px) {
+  .wraper {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-size: 46px;
+  }
 }

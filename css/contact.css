@@ -66,3 +66,32 @@ textarea::placeholder {
   border-radius: 2px;
   transform: scale(0.97);
 }
+
+@media only screen and (max-width: 768px) {
+  #contact h2 {
+    font-size: 46px;
+    margin: 50px 0;
+  }
+
+  .contact-form-container {
+    width: 85%;
+  }
+
+  .input-container {
+    flex-direction: column;
+  }
+
+  .input-contact-info {
+    width: 100%;
+  }
+
+  .input-contact-info,
+  .form-text-area {
+    font-size: 22px;
+  }
+
+  input::placeholder,
+  textarea::placeholder {
+    font-size: 22px;
+  }
+}

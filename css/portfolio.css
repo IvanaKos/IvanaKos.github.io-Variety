@@ -27,7 +27,6 @@
   width: 520px;
   height: 345px;
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   position: relative;
@@ -90,6 +89,7 @@
 .photo-caption h2 {
   font: 30px "Rokkitt", serif;
   color: var(--neutral-light);
+  text-align: left;
 }
 
 .photo-caption p {
@@ -108,4 +108,61 @@
 
 .btn-primary:hover svg polygon {
   fill: var(--emphasis);
+}
+
+@media only screen and (max-width: 1400px) {
+  .gallery-unit {
+    width: 45%;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .photo-caption {
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .photo-caption h2 {
+    font-size: 22px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .gallery {
+    row-gap: 30px;
+  }
+
+  .gallery-column {
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .gallery-unit {
+    width: 85%;
+  }
+
+  .photo-caption {
+    padding: 20px;
+  }
+
+  .photo-caption h2 {
+    font-size: 30px;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .gallery-unit {
+    width: 100%;
+  }
+
+  .photo-caption {
+    padding: 10px 20px;
+  }
+
+  .photo-caption h2 {
+    font-size: 22px;
+  }
 }
