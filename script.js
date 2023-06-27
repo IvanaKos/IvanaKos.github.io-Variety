@@ -19,14 +19,14 @@ window.addEventListener("scroll", function () {
 //START Form validation
 
 const form = document.querySelector("#form");
-const nameEl = document.querySelector("#name");
-const emailEl = document.querySelector("#email");
-const messageEl = document.querySelector("#message");
+const nameEl = form.querySelector("#name");
+const emailEl = form.querySelector("#email");
+const messageEl = form.querySelector("#message");
 
 const validateField = (inputEl, min, max, errorMessage) => {
   const value = inputEl.value.trim();
 
-  if (!isRequired(value)) {
+  if (!isEmpty(value)) {
     showError(inputEl, errorMessage);
     return false;
   }
@@ -36,7 +36,7 @@ const validateField = (inputEl, min, max, errorMessage) => {
     return false;
   }
 
-  showSuccess(inputEl);
+  removeError(inputEl);
   return true;
 };
 
@@ -45,12 +45,7 @@ const checkName = () => {
 };
 
 const checkMessage = () => {
-  return validateField(
-    messageEl,
-    1,
-    Infinity,
-    "Message field cannot be blank."
-  );
+  return validateField(messageEl, 1, 5000, "Message field cannot be blank.");
 };
 
 const isEmailValid = (email) => {
@@ -62,7 +57,7 @@ const isEmailValid = (email) => {
 const checkEmail = () => {
   const email = emailEl.value.trim();
 
-  if (!validateField(emailEl, 1, Infinity, "Email field cannot be blank.")) {
+  if (!validateField(emailEl, 1, 250, "Email field cannot be blank.")) {
     return false;
   }
 
@@ -71,11 +66,11 @@ const checkEmail = () => {
     return false;
   }
 
-  showSuccess(emailEl);
+  removeError(emailEl);
   return true;
 };
 
-const isRequired = (value) => (value === "" ? false : true);
+const isEmpty = (value) => (value === "" ? false : true);
 const isBetween = (length, min, max) =>
   length < min || length > max ? false : true;
 
@@ -88,7 +83,7 @@ const showError = (input, message) => {
   error.textContent = message;
 };
 
-const showSuccess = (input) => {
+const removeError = (input) => {
   const formField = input.parentElement;
 
   input.classList.remove("error");
