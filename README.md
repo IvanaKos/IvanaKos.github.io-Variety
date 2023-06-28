@@ -3,7 +3,7 @@ Variety
 
 ---
 
-Project type: 
+Project type:
 Portfolio Website
 
 ---
@@ -30,8 +30,6 @@ Variety
         I_____assets
         I       I________img
         I       I________svg
-        I
-        I_____design
         I
         I_____readme.md
         I_____.prettierc
