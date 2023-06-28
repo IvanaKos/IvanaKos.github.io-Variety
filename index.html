@@ -175,27 +175,39 @@
       <div class="wraper">
         <h2>Get in touch!</h2>
         <div class="contact-form-container">
-          <form class="contact-form">
+          <form id="form" class="contact-form">
             <div class="input-container">
-              <input
-                placeholder="Name"
-                type="text"
-                class="input-contact-info"
-                required
-              />
-              <input
-                placeholder="Email"
-                type="email"
-                class="input-contact-info"
-                required
-              />
+              <div class="input-unit">
+                <input
+                  placeholder="Name"
+                  type="text"
+                  class="input-contact-info"
+                  id="name"
+                  required
+                />
+                <p></p>
+              </div>
+              <div class="input-unit">
+                <input
+                  placeholder="Email"
+                  type="email"
+                  class="input-contact-info"
+                  id="email"
+                  required
+                />
+                <p></p>
+              </div>
             </div>
-            <textarea
-              placeholder="How can I help you?"
-              rows="7"
-              class="form-text-area"
-              required
-            ></textarea>
+            <div class="input-unit message-unit">
+              <textarea
+                placeholder="How can I help you?"
+                rows="7"
+                class="form-text-area"
+                id="message"
+                required
+              ></textarea>
+              <p></p>
+            </div>
             <input type="submit" value="Send" class="submit-btn" />
           </form>
         </div>
