@@ -54,6 +54,10 @@ nav a:hover {
   color: var(--neutral-dark);
 }
 
+#main-header.visible nav a:hover {
+  color: var(--emphasis);
+}
+
 @media only screen and (max-width: 768px) {
   nav ul {
     font-size: 18px;
